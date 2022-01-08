@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Demo]">
+  <test name="Test Demo(failed)">
+    <classes>
+      <class name="com.pack.testngdemo.TestngAnnotations5">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.TestngAnnotations5 -->
+      <class name="com.pack.testngdemo.TestngAnnotationsDemoXml">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.TestngAnnotationsDemoXml -->
+      <class name="com.pack.testngdemo.TestngAnnotations3">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="test2"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.TestngAnnotations3 -->
+      <class name="com.pack.testngdemo.TestMethodParallelExecution">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.TestMethodParallelExecution -->
+      <class name="com.pack.testngdemo.RetryListenerDemo">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.RetryListenerDemo -->
+      <class name="com.pack.testngdemo.NewTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.NewTest -->
+      <class name="com.pack.testngdemo.TestngAnnotations4">
+        <methods>
+          <include name="beforeGroups"/>
+          <include name="afterGroups"/>
+          <include name="beforeGroups1"/>
+          <include name="afterGroups1"/>
+        </methods>
+      </class> <!-- com.pack.testngdemo.TestngAnnotations4 -->
+    </classes>
+  </test> <!-- Test Demo(failed) -->
+</suite> <!-- Failed suite [Suite Demo] -->
